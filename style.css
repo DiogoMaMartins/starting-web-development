@@ -71,7 +71,7 @@ input{
 .facebook{
   width:60px;
   height:60px;
-  left:400;
+  left:470px;
   position: absolute;
   top:570px;
 }
@@ -89,34 +89,34 @@ top:610px;
 .linkedin{
   width:50px;
   height:50px;
-  left:500;
+  left:570px;
   position:absolute;
   top:570px;
 }
 
 .twiter{
   position:absolute;
-  left:600px;
+  left:670px;
   width:60px;
   height:60px;
   top:570px;
 
 }
 .face{
-left:400px;
+left:470px;
 position:absolute;
 color:gray;
 
 }
 .linke{
   position:absolute;
-  left:500px;
+  left:570px;
   color:gray;
 
 }
 .twite{
   position:absolute;
-  left:600px;
+  left:670px;
   color:gray;
 }
 tr{
@@ -124,11 +124,13 @@ tr{
 }
 .favorite{
   text-align: center;
+  
 
 }
 code{
   background-color:gray;
   color:black;
+  text-align: center;
 }
 
 
