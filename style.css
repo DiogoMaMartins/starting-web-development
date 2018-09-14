@@ -1,0 +1,121 @@
+body{
+  background-color:gray;
+  text-decoration: center;
+}
+.corpo{
+  max-width: 900px;
+  margin:auto;
+  display:grid;
+  grid-template-columns: 30% 50%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.corpo div{
+  background:white;
+  padding:40px;
+}
+.corpo div:nth-child(even){
+  color:blue;
+}
+/*corpo 2*/
+
+
+/*corpo2*/
+.expandir{
+  grid-column-start:1;
+  grid-column-end: 3;
+}
+#foto{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#nome{
+  text-align: center;
+  color:red;
+  font-family: fantasy;
+  font-style: italic;
+  font-weight: bold;
+}
+.subtitulo{
+  text-align: center;
+  font-family: fantasy;
+  font-style: italic;
+
+  }
+p{
+  font-family: fantasy;
+  font-style: italic;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+input{
+  position:absolute;
+  margin-left:240px;;
+  width:200px;
+  height:30px;
+  background-color:red;
+  font-size:24px;
+  color:white;
+  border-radius:10px;
+}
+.redesSociais{
+
+}
+
+.facebook{
+  width:60px;
+  height:60px;
+  left:400;
+  position: absolute;
+  top:570px;
+}
+.linkedin{
+  width:50px;
+  height:50px;
+  left:500;
+  position:absolute;
+  top:570px;
+}
+
+.twiter{
+  position:absolute;
+  left:600px;
+  width:60px;
+  height:60px;
+  top:570px;
+
+}
+.face{
+left:400px;
+position:absolute;
+color:gray;
+
+}
+.linke{
+  position:absolute;
+  left:500px;
+  color:gray;
+
+}
+.twite{
+  position:absolute;
+  left:600px;
+  color:gray;
+}
+tr{
+  padding:20px;
+}
+.favorite{
+  text-align: center;
+
+}
+code{
+  background-color:gray;
+}
