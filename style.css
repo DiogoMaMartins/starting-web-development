@@ -74,7 +74,10 @@ input{
   border-radius:10px;
 }
 
+.fixo{
+position:absolute;
 
+}
 .facebook{
   width:60px;
   height:60px;
