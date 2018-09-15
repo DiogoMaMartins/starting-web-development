@@ -7,7 +7,7 @@ body{
   max-width: 900px;
   margin:auto;
   display:grid;
-  grid-template-columns: 30% 50%;
+  grid-template-columns: 20% 50%;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
 }
