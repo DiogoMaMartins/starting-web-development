@@ -1,0 +1,163 @@
+body{
+  background-color:gray;
+  color:gray;
+}
+span{
+  float:left;
+
+}
+.corpo{
+  max-width: 900px;
+  left:350px;
+  position:absolute;
+  display:grid;
+  grid-template-columns: 30% 50%;
+  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  
+}
+
+.corpo div{
+  background:white;
+  padding:100px;
+  border-radius:1%;
+  
+  
+  
+}
+.corpo div:nth-child(even){
+  color:blue;
+ 
+}
+/*corpo 2*/
+
+
+/*corpo2*/
+.expandir{
+  grid-column-start:1;
+  grid-column-end: 3;
+}
+#foto{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#nome{
+  text-align: center;
+  color:#dd4b39;
+  font-family: fantasy;
+  font-style: italic;
+  font-weight: bold;
+}
+.subtitulo{
+  text-align: center;
+  font-family: fantasy;
+  font-style: italic;
+
+  }
+p{
+  font-family: fantasy;
+  font-style: italic;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+input{
+  position:absolute;
+  margin-left:16%;;
+  width:200px;
+  height:30px;
+  background-color:#dd4b39;
+  font-size:24px;
+  color:white;
+  border-radius:10px;
+}
+
+
+.facebook{
+  width:60px;
+  height:60px;
+  left:16%;
+  position: absolute;
+  top:34%;
+}
+.face{
+top:36%;
+}
+.linke{
+top:36%;
+
+}
+.twite{
+top:36%;
+
+}
+.linkedin{
+  width:50px;
+  height:50px;
+  left:36%;
+  position:absolute;
+  top:34%;
+}
+
+.twiter{
+  position:absolute;
+  left:56%;
+  width:60px;
+  height:60px;
+  top:34%;
+
+}
+.face{
+left:16%;
+position:absolute;
+color:gray;
+
+}
+.linke{
+  position:absolute;
+  left:36%;
+  color:gray;
+
+}
+.twite{
+  position:absolute;
+  left:56%;
+  color:gray;
+}
+tr{
+  padding:20px;
+}
+.favorite{
+  text-align: center;
+  
+
+}
+code{
+  background-color:gray;
+  color:black;
+  text-align: center;
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  margin-top: -8px;
+  font-size:12px;
+}
+
+td {
+ 
+  border-left-width: 0;
+  min-width: 120px;
+  height: 18px;
+}
+
+td:first-child {
+  border-left-width: 1px;
+}
