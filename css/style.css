@@ -4,7 +4,6 @@ body{
 }
 span{
   float:left;
-
 }
 .corpo{
   max-width: 900px;
@@ -14,16 +13,11 @@ span{
   grid-template-columns: 30% 50%;
   grid-row-gap: 30px;
   grid-column-gap: 10px;
-  
-}
-
+  }
 .corpo div{
   background:white;
   padding:100px;
   border-radius:1%;
-  
-  
-  
 }
 .corpo div:nth-child(even){
   color:blue;
@@ -54,18 +48,14 @@ span{
   text-align: center;
   font-family: fantasy;
   font-style: italic;
-
-  }
+ }
 p{
   font-family: fantasy;
   font-style: italic;
-
 }
-
 a{
   text-decoration: none;
 }
-
 input{
   position:absolute;
   margin-left:16%;;
@@ -76,8 +66,6 @@ input{
   color:white;
   border-radius:10px;
 }
-
-
 .facebook{
   width:60px;
   height:60px;
@@ -110,19 +98,16 @@ top:36%;
   width:60px;
   height:60px;
   top:34%;
-
 }
 .face{
 left:16%;
 position:absolute;
 color:gray;
-
 }
 .linke{
   position:absolute;
   left:36%;
   color:gray;
-
 }
 .twite{
   position:absolute;
@@ -134,8 +119,6 @@ tr{
 }
 .favorite{
   text-align: center;
-  
-
 }
 code{
   background-color:gray;
@@ -150,7 +133,6 @@ table {
   margin-top: -8px;
   font-size:12px;
 }
-
 td {
  
   border-left-width: 0;
@@ -160,4 +142,8 @@ td {
 
 td:first-child {
   border-left-width: 1px;
+}
+article{
+  background:white;
+  border-radius:1%;
 }

@@ -5,10 +5,10 @@
 
 The code was written by me, with the intention of using everything I learned at becode
 [Tim Berner Lee](https://diogomamartins.github.io/starting-web-development/)
-![alt text](img1.png)
-![alt text](img2.png)
-![alt text](img3.png)
-![alt text](img3.png)
+![alt text](images/img1.png)
+![alt text](images/img2.png)
+![alt text](images/img3.png)
+![alt text](images/img3.png)
 
 
 
