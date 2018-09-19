@@ -1,77 +1,92 @@
 body{
   background-color:gray;
-  color:gray;
-}
-span{
-  float:left;
 }
 .corpo{
-  max-width: 900px;
-  left:350px;
-  position:absolute;
+  max-width: 890px;
+  margin:0 auto;
   display:grid;
-  grid-template-columns: 30% 50%;
-  grid-row-gap: 30px;
-  grid-column-gap: 10px;
-  }
-.corpo div{
-  background:white;
-  padding:100px;
-  border-radius:1%;
+  grid-row-gap: 10px;
 }
-.corpo div:nth-child(even){
-  color:blue;
- 
+.corpo section{
+  background-color:white;
+  padding:30px;
+  border-radius: 1%
 }
-/*corpo 2*/
-
-
-/*corpo2*/
-.expandir{
-  grid-column-start:1;
-  grid-column-end: 3;
+.corpo section:nth-child(even){
+  background-color:white;
+  border-radius: 1%
 }
-#foto{
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#Photo{
+  border-radius:50%;
+  top:0;
+  left:40%;
+  position:relative;
 }
 #nome{
   text-align: center;
-  color:#dd4b39;
   font-family: fantasy;
   font-style: italic;
-  font-weight: bold;
+  font-size:50px;
+  color:#dd4b39
 }
 .subtitulo{
   text-align: center;
   font-family: fantasy;
   font-style: italic;
+  font-size:30px;
  }
 p{
-  font-family: fantasy;
-  font-style: italic;
+   font-family: fantasy;
+   font-size:29px;
+   display: block;
+ }
+span{
+  font-size:33.3px;
 }
-a{
-  text-decoration: none;
+.span{
+  font-size:32.1px;
 }
 input{
-  position:absolute;
-  margin-left:16%;;
+  position:relative;
+  left:39%;;
   width:200px;
-  height:30px;
+  height:50px;
   background-color:#dd4b39;
   font-size:24px;
   color:white;
+  font-weight: bold;
   border-radius:10px;
+}
+
+ul ,li{
+  margin-left: auto;
+  margin-right: auto;
+ }
+.secondsection, ul ,li{
+  display:flex;
+  padding:20px;
 }
 .facebook{
   width:60px;
   height:60px;
-  left:16%;
-  position: absolute;
-  top:34%;
+}
+.linkedin{
+  width:60px;
+  height:60px;
+}
+.twiter{
+  width:60px;
+  height:60px;
+}
+li{
+  list-style:none;
+}
+a{
+  text-decoration: none;
+}
+.facebook{
+  width:60px;
+  height:60px;
 }
 .face{
 top:36%;
@@ -87,63 +102,67 @@ top:36%;
 .linkedin{
   width:50px;
   height:50px;
-  left:36%;
-  position:absolute;
-  top:34%;
+  position:relative;
 }
 
 .twiter{
-  position:absolute;
-  left:56%;
+  position:relative;
   width:60px;
   height:60px;
-  top:34%;
 }
 .face{
-left:16%;
-position:absolute;
+
+position:relative;;
 color:gray;
 }
 .linke{
-  position:absolute;
-  left:36%;
+  position:relative;
   color:gray;
 }
 .twite{
-  position:absolute;
-  left:56%;
+  position:relative;
   color:gray;
 }
-tr{
+.reseaux{
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  position:relative;
+  font-size:30px;
+}
+.reseau,table,td{
   padding:20px;
+  color:gray;
+  font-weight: bold;
 }
 .favorite{
   text-align: center;
+  font-size:40px;
 }
 code{
   background-color:gray;
-  color:black;
-  text-align: center;
+}
+#titlee{
+  font-weight: bold;
+  font-size: 30px;
+  top:20%;
+  position:relative;
+}
+span,.artigo{
+  font-size:24px;
+}
+span, .alinhamento{
+  float: left;
+  font-size:26px;
+}
+span,.alinhar{
+float: left;
+}
+.movies{
+  text-align: left;
+  text-align: justify;
+}
+span, .dois{
+   font-size:24px;
 }
 
-
-table {
-  border-collapse: separate;
-  border-spacing: 0 20px;
-  margin-top: -8px;
-  font-size:12px;
-}
-td {
- 
-  border-left-width: 0;
-  min-width: 120px;
-  height: 18px;
-}
-
-td:first-child {
-  border-left-width: 1px;
-}
-article{
-  background:white;
-  border-radius:1%;
-}
