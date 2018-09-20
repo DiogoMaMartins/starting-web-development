@@ -6,7 +6,7 @@ body{
   max-width: 890px;
   margin:0 auto;
   display:grid;
-  grid-row-gap: 10px;
+  grid-row-gap: 30px;
 }
 .corpo section{
   background-color:white;
