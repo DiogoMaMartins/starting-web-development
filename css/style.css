@@ -75,8 +75,8 @@ ul ,li{
   padding:20px;
 }
 .facebook{
-  width:60px;
-  height:60px;
+  width:80px;
+  height:80px;
   left: 20%;
   position: relative;
 }
@@ -161,12 +161,12 @@ color:gray;
 code{
   background-color:gray;
 }
-#titlee{
+#titlee,th{
   font-weight: bold;
-  font-size: 30px;
-  top:20%;
+  font-size: 35px;
   position:relative;
   text-align: center;
+  margin-top:0;
 }
 
 section, th,p{
